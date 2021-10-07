@@ -1,7 +1,7 @@
 package com.raywenderlich.placebook.viewmodel
 
 import Bookmark
-import BookmarkRepo
+//import BookmarkRepo
 import android.app.Application
 import android.graphics.Bitmap
 import android.util.Log
@@ -10,6 +10,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.libraries.places.api.model.Place
+import com.raywenderlich.placebook.repository.BookmarkRepo
+
 //import com.raywenderlich.placebook.model.Bookmark
 //import com.raywenderlich.placebook.repository.BookmarkRepo
 
